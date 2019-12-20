@@ -2,18 +2,24 @@ body {
   text-align: center;
   font-family: 'Open Sans', sans-serif;
   color: #3f4850;
+  background-color: #0e181a;
 }
 
 h2 {
   font-size: 2em;
+  font-family: Comfortaa-VariableFont;
   margin: 52px 0 40px;
   text-transform: capitalize;
+  color: white;
+  text-shadow: 2px 2px 37px grey;
 }
 
 ul {
   list-style-type: none;
   padding-left: 0;
+  font-family: Comfortaa-SemiBold;
 }
+
 li {
   list-style: none;
 }
@@ -22,6 +28,9 @@ a {
   text-decoration: none;
 }
 
+.loading{
+  color: white;
+}
 .search-form {
   max-width: 460px;
   display: flex;
@@ -39,6 +48,7 @@ a {
 
 input {
   font-size: 1em;
+  font-family: Comfortaa-Light;
   width: 100%;
   background-color: #edeff0;
   padding: 10px 15px;
@@ -95,6 +105,24 @@ input {
 .photo-container .not-found {
   width: 100%;
 }
+.not-found h3{
+  font-size: 40px;
+  color: #efefef;
+  font-family: Comfortaa-Bold;
+}
+.not-found h2{
+  font-size: 50px;
+  font-family: Comfortaa-VariableFont;
+  color: #fff;
+  text-shadow: 4px 4px #d54646;
+}
+.not-found p{
+  color: #ffffff;
+  font-size: 20px;
+  text-shadow: 4px 4px 5px #000000;
+}
+
+
 
 @media only screen and (max-width: 767px)  {
   body {
@@ -126,3 +154,23 @@ input {
     width: 100px;
   }
 }
+
+
+/*------------------FONTS-----------------------------------------------------*/
+@font-face {
+  font-family: Comfortaa-VariableFont;
+  src: url('fonts/Comfortaa/Comfortaa-VariableFont_wght.ttf');
+}
+@font-face {
+  font-family: Comfortaa-Bold;
+  src: url('fonts/Comfortaa/static/Comfortaa-Bold.ttf');
+}
+@font-face {
+  font-family: Comfortaa-Light;
+  src: url('fonts/Comfortaa/static/Comfortaa-Light.ttf');
+}
+@font-face {
+  font-family: Comfortaa-SemiBold;
+  src: url('fonts/Comfortaa/static/Comfortaa-SemiBold.ttf');
+}
+/*------------------END FONTS-------------------------------------------------*/
