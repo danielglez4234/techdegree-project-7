@@ -24,6 +24,7 @@ render(){
           let path = `/search/${queryValue}`;
           this.props.history.push(path);
 
+          context.loading = true; // is set to true so that the text "loanding" appears
           context.performSeacrh(queryValue);
           e.currentTarget.reset();
         }

@@ -52,6 +52,7 @@ class App extends Component {
       // we use the <Provider> to send the current state of the data and the function performSeacrh
       <Provider value={{
         data: this.state.photo,
+        loading: this.state.loading,
         performSeacrh: this.performSeacrh
       }}>
         <BrowserRouter>{/*managing routes*/}

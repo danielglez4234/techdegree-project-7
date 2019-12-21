@@ -29,7 +29,11 @@ a {
 }
 
 .loading{
-  color: white;
+  font-size: 25px;
+  color: #efefef;
+  font-family: Comfortaa-Bold;
+  text-align: center;
+  margin: auto;
 }
 .search-form {
   max-width: 460px;

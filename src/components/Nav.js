@@ -9,6 +9,8 @@ const Nav = () => {
         // run performsearch when a link is clicked
         let handleSearch = (e) => {
           context.performSeacrh(e.target.innerText);
+          context.loading = true; // is set to true so that the text "loanding" appears
+          console.log(context.loading);
         };
 
         return(

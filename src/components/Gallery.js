@@ -29,8 +29,8 @@ render(){
         return(
           <div className="photo-container">
             <h2>{ queryText } Photos</h2>
-                <ul>
-                  { photos }
+                <ul> {/*This condition is also here so that the text "loading .." appears when a Navlink is clicked or a search is performed*/}
+                  {(context.loading) ? <h3 className="loading">Loading....</h3> : photos }
                 </ul>
           </div>
         );
