@@ -1,3 +1,12 @@
+- **The `config.js` file must be saved in the `/src` folder**
+The config.js file looks like this:
+`const apiKey = 'YOUR API KEY';
+export default apiKey;`.
+
+The code is made in a way that you can also perform a search by typing in the url for example. "/search/'YOUR TEXT'". not writing anything after "/search/..." or mistyping the url will result in a "page not found".
+
+**CSS changes I made:** Color changes in the background of the body and the color of the text, different types of the "comfortaa" font were added throughout the text as well as some shadows.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
