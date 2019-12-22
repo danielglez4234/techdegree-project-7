@@ -1,7 +1,10 @@
-- **The `config.js` file must be saved in the `/src` folder**
-The config.js file looks like this:.
-`const apiKey = 'YOUR API KEY';.
-export default apiKey;`.
+- **The `config.js` file must be saved in the `/src` folder.**
+
+The config.js file should looks like this:
+
+`const apiKey = 'YOUR API KEY';
+
+export default apiKey;`
 
 The code is made in a way that you can also perform a search by typing in the url for example. "/search/'YOUR TEXT'". not writing anything after "/search/..." or mistyping the url will result in a "page not found".
 
