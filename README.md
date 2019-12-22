@@ -2,9 +2,9 @@
 
 The config.js file should looks like this:
 
-`const apiKey = 'YOUR API KEY';
+`const apiKey = 'YOUR API KEY';`
 
-export default apiKey;`
+`export default apiKey;`
 
 The code is made in a way that you can also perform a search by typing in the url for example. "/search/'YOUR TEXT'". not writing anything after "/search/..." or mistyping the url will result in a "page not found".
 
